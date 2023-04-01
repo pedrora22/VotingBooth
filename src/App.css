@@ -5,12 +5,18 @@
   min-width: 400px;
 }
 
+.num {
+  font-weight:700;
+  font-size:x-large;
+  
+}
+
 .Wrapper {
   display: flex;
   box-sizing: border-box;
   border-color: black;
   border: 10px solid #969696;
-  padding: 80px;
+  padding: 70px;
   background: grey;
 
 }
@@ -45,7 +51,13 @@
   width: 70vh;
   height: 60vh;
   padding: 10px;
+  font-size: medium;
   background-color: white;
+  line-height: 0.8;
+}
+
+.number{
+  font-weight: 800;
 }
 
 .btns {

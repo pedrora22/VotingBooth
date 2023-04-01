@@ -16,8 +16,8 @@ function App() {
       var voteS = vote.toString();
       setVote(Number(voteS.substring(0, voteS.length - 1)))
     }
-  }
-
+  } 
+  
   const handleConfirma = () => {
     if(vote === 'Branco' || vote === 72 || vote === 62 || vote === 42 || vote === 46 || vote === 45) {
       setVote('Confirma')
@@ -37,11 +37,24 @@ function App() {
     }
     return digits;
   }
+
+  const showInst = () => {
+    if(vote === 72 || vote === 62 || vote === 42 || vote === 46 || vote === 45) {
+      return(
+          <div>
+            <h6>Aperte CONFIRMA para confirmar o seu voto.</h6>
+            <h6>Aperte CORRIGE para apagar o último número.</h6>
+            <h6>Aperte BRANCO para votar em branco.</h6>
+          </div>
+      )
+    }
+  }
   return(
       <Wrapper>
         <div className='screen'>
           {Screen(vote)}
-          {vote}
+          <div className='num'>{vote}</div>
+          {showInst()}
         </div>
         <div className='btns'>
           {createDigits()}

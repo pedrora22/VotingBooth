@@ -86,7 +86,7 @@ const Screen = (vote) => {
         <div>
             <img className="image" src={holder.img}></img>
             <h2>{holder.name}</h2>
-            <h3>{holder.number}</h3>
+            
         </div>
     )
 }
