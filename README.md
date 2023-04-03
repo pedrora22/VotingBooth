@@ -5,4 +5,4 @@ https://pedrora22.github.io/VotingBooth/
 
 Prototype made for a college assignment.
 
-Requested by Glaucya Ribeiro Boechat, WEB Programming teacher at UCSAL.
+Requested by Glaucya Boechat, WEB Programming teacher at UCSAL.
