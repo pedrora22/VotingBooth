@@ -1,5 +1,7 @@
 https://pedrora22.github.io/VotingBooth/
 
+Project made by Pedro Rabelo and Gabriel Cunha
+
 ![image](https://user-images.githubusercontent.com/99846299/229256995-69af1498-b6e1-4c16-a371-22216af736bd.png)
 ![image](https://user-images.githubusercontent.com/99846299/229257001-38ccf268-59cc-4134-b996-c6254cb45879.png)
 
